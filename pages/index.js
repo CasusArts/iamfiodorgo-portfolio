@@ -8,7 +8,7 @@ import { BioSection, BioYear } from '../components/bio'
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+      <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={2} align="center">
         Hello, I&apos;m Web developer based in Germany!
       </Box>
 
@@ -45,7 +45,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Fiodor is a Web Developer with passion on both sides of creation: Front- and Backend.
+          Fiodor is a Web Developer with passion on both sides of creation: Front- and Backend.{' '}
           <NextLink href="https://github.com/CasusArts">
             <Link>GitHub</Link>
           </NextLink>
@@ -70,7 +70,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2001</BioYear>
-          Moved with family to Germany.
+          Moved with family to Augsburg, Germany.
         </BioSection>
         <BioSection>
           <BioYear>2008</BioYear>
@@ -78,11 +78,15 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2012</BioYear>
-          Became a physiotherapie diploma at PRÄHA Bildungsinstitute Düsseldorf.
+          Became a physiotherapy diploma at &quot;PRÄHA Bildungsinstitute Düsseldorf&quot;.
+        </BioSection>
+        <BioSection>
+          <BioYear>2016</BioYear>
+          Moved back to Augsburg and started to go deeper in Web Development.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Became Software Developer diploma at DEKRA Akademie Augsburg
+          Became Software Developer diploma at &quot;DEKRA Akademie Augsburg&quot;
         </BioSection>
       </Section>
 
